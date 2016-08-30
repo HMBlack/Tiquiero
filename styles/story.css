@@ -1,0 +1,98 @@
+@import "basic.css";
+
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/imgp4186_snapseed.jpg) no-repeat 50% 100%;
+    width: 100%; min-width: 1200px; height: 560px; min-height: 560px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+.countdown,.icon,.icon2,.content-num,.words,.travel,.together,.email,.email-1,.email-2{
+    display: inline-block; vertical-align: top; position: relative;
+}
+
+.p-1,.p-2{
+    text-align: center; margin-top: 1pt; margin-bottom: -1px;
+}
+.p-3{
+    text-align: right; margin-top: 5pt; margin-bottom: -5px;
+}
+.sp-1,.sp-2,.sp-3{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(255,255,255);
+}
+.sp-1,.sp-2{
+    line-height: 27.05pt; font-size: 18.00pt;
+}
+.sp-3{
+    line-height: 35.86pt; font-size: 18.75pt;
+}
+
+.content{
+    display: block; position: relative; width: 1200px; min-width: 1200px;
+    margin-left: auto; margin-right: auto; margin-top: 38px;
+}
+.cont-header{
+    width: 600px; min-width: 600px; min-height: 180px; margin-left: 300px; z-index: 2;
+}
+.cont-header p{
+    text-align: center; margin-top: 12pt; margin-bottom: -12pt;
+}
+.cont-header span{
+    font-family: "Avenir Next", sans-serif; font-weight: 200; text-decoration: none; color: rgb(0,0,0);
+    font-size: 51.00pt; line-height: 97.53pt;
+}
+.countdown,.travel,.together{
+    width: 808px; min-width: 808px; min-height: 126px; margin-left: 198px; z-index: 3;
+}
+.icon{
+    width: 125px; min-width: 125px; min-height: 125px; border: 0; border-radius: 63px; background-color: rgb(211,54,130); z-index: 4;
+}
+.icon2{
+    width: 104px; min-width: 104px; min-height: 104px; margin-top: 10px; margin-left: 10px;
+    border: 0; border-radius: 52px; background-color: rgb(255,255,255); z-index: 6;
+}
+.content-num{
+    width: 105px; min-width: 105px; min-height: 47px; margin-left: 2px; margin-top: 30px;
+}
+.content-num p{
+    margin-top: 5pt; margin-bottom: -5pt; text-align: center;
+}
+.content-num span{
+    font-family: Lato; font-size: 14.00pt; font-weight: 400; text-decoration: none;
+    color: rgb(0,0,0); line-height: 25.20pt; z-index: 18;
+}
+.words{
+    width: 650px; min-width: 650px; min-height: 114px; margin-left: 33px; margin-top: 10px;
+}
+.words p{
+    margin-top: 10pt; margin-bottom: -10pt; text-align: center;
+}
+.words span{
+    font-family: "Microsoft YaHei", sans-serif; font-size: 30.00pt; font-weight: 400; text-decoration: none;
+    color: rgb(64,64,64); line-height: 59.39pt;
+}
+.travel,.together{
+    margin-top: 78px;
+}
+.email{
+    width: 172px; min-width: 172px; min-height: 174px; margin-left: -490px; margin-top: 340px;  z-index: 10;
+}
+.email-1{
+    width: 170px; min-width: 170px; min-height: 170px;   z-index: 11;
+}
+.submit-1{
+    width: 170px; height: 170px; border-radius: 85px; border: 0;
+    background: transparent url(../images/slice-1.jpg) no-repeat 50% 0; background-size: contain; background-clip: padding-box;
+}
+.email-2{
+    width: 172px; min-width: 172px; min-height: 172px; margin-top: -168px; z-index: 11;
+}
+.submit-2{
+    width: 172px; height: 172px; margin-top: -3pt; margin-bottom: 3pt;
+    background-color: rgb(255,255,255); color: rgb(211,54,130);
+    text-decoration: none; line-height: 24.59pt; letter-spacing: 1.71px;
+    border: 1px solid rgb(211,54,130); border-radius: 86px; font-size: 18.00pt;
+}
+.submit-2:hover , .submit-2:active {
+    background-color: transparent; border-color: transparent; color: transparent;
+}

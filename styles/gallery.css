@@ -1,0 +1,66 @@
+@import "basic.css";
+
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/img_2289.jpg) no-repeat 50% 100%;
+    width: 100%; min-width: 1200px; height: 560px; min-height: 560px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+
+.p-1{
+    text-align: center; margin-top: 1pt; margin-bottom: -1px;
+}
+.p-2{
+    text-align: right; margin-top: 5pt; margin-bottom: -5px;
+}
+.sp-1,.sp-2,.sp-3{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(255,255,255);
+}
+.sp-1,.sp-2{
+    line-height: 27.05pt; font-size: 18.00pt;
+}
+.sp-3{
+    line-height: 35.86pt; font-size: 18.75pt;
+}
+
+.content{
+    display: block; position: relative;  width: 1200px; min-width: 1200px; height: 800px;
+    margin: 50px auto -30px;
+}
+#cont-gallery{
+    display: inline-block; vertical-align: top; position: relative;
+    width: 1200px; height: 780px;
+}
+ul,li{
+    position: absolute;top: 0;left: 0;z-index: 5;
+}
+.prev,.next{
+    width: 75px; height:150px; margin-top:-10px; position:absolute; top: 50%; z-index:8; display: none;
+}
+.prev{
+    background:url(../images/prev.jpg); left:0;
+}
+.next{
+    background:url(../images/next.jpg); right:0;
+}
+.prev_bg,.next_bg {
+    position:absolute; top:0; z-index:7; width:600px; height:700px; filter:alpha(opacity:0); opacity:0;
+}
+.prev_bg{
+    left: 0;
+}
+.next_bg{
+    right: 0;
+}
+#index{
+    display: inline-block; position: relative; text-align: center;
+    list-style: none; width: 100%;  padding: 0; height: 10px;
+}
+#index li{
+    display: inline-block; position: relative; cursor: pointer; width: 8px; height: 8px; margin-right: 20px; margin-top: 5px;
+    border-radius: 50%; text-align: center; list-style: none; background: rgb(183,183,183);
+}
+#index .selected{
+    background: rgb(221,99,158);
+}

@@ -1,0 +1,77 @@
+@import "basic.css";
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/imgp4186_snapseed.jpg) no-repeat 50% 100%;
+    width: 100%; min-width: 1200px; height: 560px; min-height: 560px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+.title,.writings,.email,.email-1,.email-2{
+    display: inline-block; vertical-align: top; position: relative;
+}
+
+.p-1{
+    text-align: center; margin-top: 1pt; margin-bottom: -1px;
+}
+.p-2{
+    text-align: right; margin-top: 5pt; margin-bottom: -5px;
+}
+.sp-1,.sp-2{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(255,255,255);
+}
+.sp-1{
+    line-height: 37.19pt; font-size: 24.75pt;
+}
+.sp-2{
+    line-height: 35.86pt; font-size: 18.75pt;
+}
+
+.content{
+    width: 1200px; min-width: 1200px; margin-left: auto; margin-right: auto; margin-top: 40px; display: block;position: relative;
+}
+.title{
+    width: 666px; min-width: 666px; min-height: 108px; margin-left: 268px;
+}
+.title p{
+    text-align: center; margin-top: 9pt; margin-bottom: -9px;
+}
+.title span{
+    font-family: "Microsoft YaHei", sans-serif; font-size: 33.75pt; font-weight: 400;
+    text-decoration: none; color: rgb(64,64,64); line-height: 62.36pt;
+}
+.writings{
+    width: 885px; min-width: 885px; min-height: 1200px; margin-left: 164px; margin-top: 26px;
+}
+.writings p{
+    margin-top: 8pt; margin-bottom: -8px;  text-align: left;
+}
+.writings span{
+    font-family: "Microsoft YaHei", sans-serif; font-size: 12.75pt; font-weight: 400; text-decoration: none;
+    color: rgb(64,64,64); line-height: 23.56pt; text-indent: 3em; display: inline-block;
+}
+#writings-name,#writings-time{
+    text-align: right;
+}
+
+.email{
+    width: 172px; min-width: 172px; min-height: 174px; margin-left: -530px;  z-index: 10;
+}
+.email-1{
+    width: 170px; min-width: 170px; min-height: 170px;   z-index: 11;
+}
+.submit-1{
+    width: 170px; height: 170px; border-radius: 85px; border: 0;
+    background: transparent url(../images/slice-1.jpg) no-repeat 50% 0; background-size: contain; background-clip: padding-box;
+}
+.email-2{
+    width: 172px; min-width: 172px; min-height: 172px; margin-top: -168px; z-index: 11;
+}
+.submit-2{
+    width: 172px; height: 172px; margin-top: -3pt; margin-bottom: 3pt;
+    background-color: rgb(255,255,255); color: rgb(211,54,130);
+    text-decoration: none; line-height: 24.59pt; letter-spacing: 1.71px;
+    border: 1px solid rgb(211,54,130); border-radius: 86px; font-size: 18.00pt;
+}
+.submit-2:hover , .submit-2:active {
+    background-color: transparent; border-color: transparent; color: transparent;
+}

@@ -1,0 +1,284 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=text]{border: solid thin #ddd}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+/* patterns from subtlepatterns.com */
+body,div{
+    font-size: 0px;
+}
+p,h1,h2,h3,h4,h5,h6, {
+    margin: 0em;  word-spacing: normal;
+}
+form {
+    display: inline-block;
+}
+input,textarea {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: inherit;  color: inherit;  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#body{
+    background: transparent url("../images/cubes.jpg") repeat center top;
+    background-attachment: fixed;
+}
+
+.main,.header,.header-section,.header-cont,.name,.chinese,.chinese-cont,.icon,.content-name,.vocation,.storyboard,
+.storyboard-top,.works,.works-words,.works-btn,.button-2,.story,.story-words,.story-btn,.e-mail,.email-1,.email-2,
+.storyboard-bottom,.gallery,.gallery-words,.gallery-btn,.timeline,.timeline-words,.timeline-btn,.github,.button-3,
+.footer-img,.footer,.footer-words,.copyright{
+    display: inline-block; vertical-align: top; position: relative;
+}
+.name span,.chinese a,.works-font,.story-font,.gallery-font,.timeline-font,.copyright-font,.copyright-font-2{
+    font-family: "Avenir Next", sans-serif; font-weight: 200;
+}
+.content-name span,.vocation span,.storyboard span,.button-2,.submit-3,.button-3{
+    font-family: "Avenir Next", sans-serif; font-weight: 400;
+}
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/desk-macbook-notebook-coffee-camera.jpg) no-repeat 50% 50%;
+    width: 100%; min-width: 1200px; height: 868px; min-height: 868px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+
+.header{
+    width: 100%; min-width: 1200px; min-height: 868px; margin-top: -868px; border: 0;
+    background-color: rgba(0, 0, 0, 0.571); z-index: 4;
+}
+.header-section{
+    margin-top: 34px; margin-left: auto; margin-right: auto;
+}
+.header-cont{
+    width: 1000px; min-width: 1000px; min-height: 70px; margin-left: 77px;
+}
+.name{
+    width: 200px; min-width: 200px; min-height: 70px;
+}
+.name h1{
+    text-indent: 0; text-align: left;
+}
+.name span{
+    text-decoration: none; line-height: 51.22pt; color: rgb(255, 255, 255); font-size: 37.50pt;
+}
+.chinese{
+    margin-left: 672px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
+}
+.chinese-cont{
+    width: 128px; min-height: 40px; min-width: 128px; z-index: 4;
+}
+.chinese a{
+    display: inline-block; border: 1px solid rgb(211, 54, 130); background-color: transparent;
+    text-align: center; text-decoration: none; color: rgb(211, 54, 130);
+    width: 126px; height: 30px; padding-top: 8px; line-height: 16.39pt; font-size: 12.00pt;
+}
+.chinese a:hover{
+    background-color: rgb(211,54,130);  border-color: transparent;  color: rgb(255,255,255);
+}
+.chinese a:active{
+    background-color: transparent;  border-color: transparent;  color: rgb(211,54,130);
+}
+
+.content{
+    display: block; position: relative;
+    width: 1200px; min-width: 1200px; margin-top: 48px; margin-left: auto; margin-right: auto;
+ }
+.icon{
+    width: 150px; min-width: 150px; height: 150px; min-height: 150px; margin-left: 525px;
+    background: rgb(228,226,218) url(../images/icon.jpg) no-repeat 50% 50%; background-size: cover; background-clip: padding-box;
+    border-radius: 75px; box-shadow: 7px 6px 13px rgb(128,128,128);
+}
+.content-name{
+    width: 123px; min-width: 123px; min-height: 65px; margin-left: 540px;  z-index: 5;
+}
+.content-name p{
+    padding-top: 6px; text-align: center;
+}
+.content-name span{
+    text-decoration: none; color: rgb(0,0,0); line-height: 35.86pt; letter-spacing: 0.80px; font-size: 18.75pt;
+}
+.vocation{
+    width: 600px; min-height: 75px; margin-left: 300px; margin-top: -12px;z-index: 6;
+}
+.vocation p{
+    padding-top: 4pt; text-align: center;
+}
+.vocation span , .storyboard span{
+    text-decoration: none; color: rgb(0,0,0);
+}
+.vocation span{
+     font-size: 14.25pt; line-height: 27.25pt;
+}
+
+.storyboard{
+    width: 600px; min-width: 600px; min-height: 96px; margin-left: 300px; z-index: 2;
+}
+.storyboard p{
+    padding-top: 8pt; text-align: center;
+}
+.storyboard span{
+    font-size: 30.00pt; line-height: 57.37pt;
+}
+
+.storyboard-top{
+    width: 1200px; min-width: 1200px; min-height: 333px; margin-top: 1px;
+}
+.works{
+    width: 595px; min-width: 595px; min-height: 333px;
+    background: url(../images/mac.jpg); background-size: cover; border: 0;
+}
+.submit{
+    width: 595px; height: 333px; background-color: rgba(0,0,0,0.571); box-shadow: 4px 4px 4px rgb(128,128,128); border: 0;
+}
+.submit:hover,.submit:active {
+    background-color: rgba(30,32,34,0.416); border-color: rgb(0,0,0); color: transparent;
+}
+.works-words{
+    width: 368px; min-width: 368px; min-height: 108px;
+    margin-left: 114px; margin-top: -254px; z-index: 8;
+}
+.works-p{
+    padding-top: 5pt; margin-bottom: -5pt; text-align: center;
+}
+.works-font{
+    color: rgb(247,247,247); text-decoration: none; line-height: 34.42pt; font-size: 18.00pt;
+}
+.works-btn{
+    width: 155px; min-width: 155px; min-height: 33px; margin-left: 212px; margin-top: -130px; z-index: 9;
+}
+.button-2{
+    border: 2px solid rgb(211,54,130); background-color: transparent; color: rgb(211,54,130); font-size: 11.25pt;
+    text-decoration: none; text-align: center; padding-top: 5px; width: 155px; height: 26px; line-height: 15.37pt;
+}
+.button-2:hover {
+    background-color: rgb(211,54,130); border-color: transparent; color: rgb(255,255,255);
+}
+.button-2:active {
+    background-color: transparent; border-color: transparent; color: rgb(211,54,130);
+}
+.story{
+    width: 595px; min-width: 595px; min-height: 333px; margin-left: 10px;
+    background: url(../images/imgp4186.jpg); background-size: cover;
+}
+.story-words{
+    width: 368px; min-width: 368px; min-height: 126px;
+    margin-left: 115px; margin-top: -263px; z-index: 8;
+}
+.story-p{
+    padding-top: 1pt; margin-bottom: -1pt; text-align: center;
+}
+.story-font{
+    color: rgb(255,255,255); text-decoration: none; line-height: 27.05pt; font-size: 18.00pt;
+}
+.story-btn{
+    width: 157px; min-width: 157px; min-height: 33px; margin-left: 230px; margin-top: -130px; z-index: 9;
+}
+.e-mail{
+    width: 172px; min-width: 172px; min-height: 174px; margin-left: 514px; margin-top: -78px; z-index: 99;
+}
+.email-1{
+    width: 170px; min-width: 170px; min-height: 170px; z-index: 10;
+}
+.submit-2{
+    width: 170px; height: 170px; border-radius: 85px; border: 0;
+    background: transparent url(../images/slice-1.jpg) no-repeat; background-size: contain; background-clip: padding-box;
+}
+.email-2{
+    width: 172px; min-width: 172px; min-height: 172px; margin-top: -168px; z-index: 11;
+}
+.submit-3{
+    width: 172px; height: 172px; margin-top: -3pt; margin-bottom: 3pt;
+    background-color: rgb(255,255,255); color: rgb(211,54,130);
+    text-decoration: none; line-height: 24.59pt; letter-spacing: 1.71px;
+    border: 1px solid rgb(211,54,130); border-radius: 86px; font-size: 18.00pt;
+}
+.submit-3:hover , .submit-3:active {
+    background-color: transparent; border-color: transparent; color: transparent;
+}
+
+.storyboard-bottom{
+    width: 1200px; min-width: 1200px; min-height: 333px; margin-top: -85px;
+}
+.gallery{
+    width: 595px; min-width: 595px; min-height: 333px;
+    background: url(../images/img_2289.jpg) no-repeat; background-size: cover;
+}
+.gallery-words {
+    width: 368px; min-width: 368px; min-height: 143px;
+    margin-left: 114px; margin-top: -249px; z-index: 13;
+}
+.gallery-p{
+    padding-top: 5pt; padding-bottom: -5pt; text-align: center;
+}
+.gallery-font{
+    color: rgb(255,255,255); text-decoration: none; line-height: 34.42pt; font-size: 18.00pt;
+}
+.gallery-btn{
+    width: 157px; min-width: 157px; min-height: 33px;
+    margin-left: 212px; margin-top: -107px; z-index: 14;
+}.timeline{
+    width: 595px; min-width: 595px; min-height: 333px; margin-left: 10px;
+    background: url(../images/img_2433.jpg) no-repeat; background-size: cover;
+}
+.timeline-words {
+    width: 368px; min-width: 368px; min-height: 143px;
+    margin-left: 114px; margin-top: -249px; z-index: 13;
+}
+.timeline-p{
+    padding-top: 5pt; padding-bottom: -5pt; text-align: center;
+}
+.timeline-font{
+    color: rgb(255,255,255); text-decoration: none; line-height: 34.42pt; font-size: 18.00pt;
+}
+.timeline-btn{
+    width: 157px; min-width: 157px; min-height: 33px;
+    margin-left: 212px; margin-top: -107px; z-index: 14;
+}
+
+.github{
+    width: 184px; min-width: 184px;min-height: 182px;
+    margin-left: 509px; margin-top: 50px; z-index: 3;
+}
+.button-3{
+    border: 2px solid rgb(211,54,130); border-radius: 91px;
+    background-color: rgb(211,54,130); color: rgb(255,255,255);
+    width: 180px; height: 112px; line-height: 31.76pt; padding-top: 68px;
+    text-decoration: none; text-align: center; font-size: 23.25pt;
+}
+.button-3:hover{
+    background-color: transparent; border-color: rgb(211,54,130); color: rgb(211,54,130);
+}
+.button-3:active{
+    background-color: transparent; border-color: transparent; color: rgb(211,54,130);
+}
+
+.footer-img{
+    width: 100%; min-width: 1200px; height: 868px; min-height: 868px; margin-top: 72px;
+    background: transparent url(../images/city.jpg) no-repeat 50% 50%; background-size: cover; background-clip: padding-box;
+    border: 0; z-index: 3; background-attachment: fixed;
+}
+.footer{
+    width: 100%; min-width: 1200px; min-height: 868px; margin-top: -868px;
+    background-color: rgba(0,0,0,0.571); z-index: 16;
+}
+.footer-cont{
+    display: block;width: 1200px; min-width: 1200px; position: relative;
+    margin-left: auto; margin-right: auto; margin-top: 300px;
+}
+.footer-words{
+    width: 714px; min-width: 714px; height: 248px; min-height: 246px;
+    margin-left: 236px; z-index: 18;
+}
+.copyright{
+    width: 600px; min-width: 600px; height: 80px min-height: 80px;
+    margin-left: 340px; margin-top: 248px; z-index: 20;
+}
+.copycopyright-p{
+    padding-top: 4pt; margin-bottom: -4pt; text-align: center;
+}
+.copyright-font,.copyright-font-2{
+    text-decoration: none; color: rgb(255,255,255); line-height: 28.69pt; font-size: 15.00pt;
+}
+.copyright-font-2{
+    color: rgb(211,54,130); margin-top: 10px;
+}
+

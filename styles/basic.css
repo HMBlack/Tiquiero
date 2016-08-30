@@ -1,0 +1,105 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=text]{border: solid thin #ddd}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+/* patterns from subtlepatterns.com */
+body,div{
+    font-size: 0px;
+}
+p,h1,h2,h3,h4,h5,h6, {
+    margin: 0em;  word-spacing: normal;
+}
+form {
+    display: inline-block;
+}
+input,textarea {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: inherit;  color: inherit;  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#body{
+    background: transparent url("../images/cubes.jpg") repeat center top;
+    background-attachment: fixed;
+}
+
+.main,.header,.header-cont,.name,.contact,.contact-cont,.icon,.content-name,.header-words,
+.footer-img,.footer,.footer-words,.copyright{
+    display: inline-block; vertical-align: top; position: relative;
+}
+
+.copyright-font,.copyright-font-2{
+    font-family: "Avenir Next", sans-serif; font-weight: 200;
+}
+
+
+.header{
+    width: 100%; min-width: 1200px; min-height: 560px; margin-top: -560px; border: 0;
+    background-color: rgba(0, 0, 0, 0.571); z-index: 8;
+}
+.header-section{
+    display: block; position: relative;
+    width: 1200px; min-width: 1200px; margin-left: auto; margin-right: auto; margin-top: 31px;
+}
+.header-cont{
+    width: 1072px; min-width: 1072px; min-height: 58px; margin-left: 92px;
+}
+.name{
+    width: 200px; min-width: 200px; min-height: 58px;
+}
+.name h1{
+    text-indent: 0; text-align: left;
+}
+.name span{
+    font-family: "Avenir Next", sans-serif; font-size: 30.00pt; font-weight: 200; text-decoration: none;
+    color: rgb(255,255,255); line-height: 40.98pt;
+}
+.contact{
+    margin-left: 700px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
+}
+.contact-cont{
+    width: 128px; min-height: 40px; min-width: 128px; z-index: 4;
+}
+.contact a{
+    display: inline-block; border: 1px solid rgb(211, 54, 130); background-color: transparent;
+    text-align: center; text-decoration: none; color: rgb(211, 54, 130);
+    width: 126px; height: 30px; padding-top: 8px; line-height: 16.39pt; font-size: 12.00pt;
+}
+.contact a:hover{
+    background-color: rgb(211,54,130);  border-color: transparent;  color: rgb(255,255,255);
+}
+.contact a:active{
+    background-color: transparent;  border-color: transparent;  color: rgb(211,54,130);
+}
+.header-words{
+    width: 600px; min-width: 600px; margin-left: 300px; margin-top: 126px; z-index: 6;
+}
+
+.footer-img{
+    width: 100%; min-width: 1200px; height: 868px; min-height: 868px; margin-top: 72px;
+    background: transparent url(../images/city.jpg) no-repeat 50% 50%; background-size: cover; background-clip: padding-box;
+    border: 0; z-index: 3; background-attachment: fixed;
+}
+.footer{
+    width: 100%; min-width: 1200px; min-height: 868px; margin-top: -868px;
+    background-color: rgba(0,0,0,0.571); z-index: 16;
+}
+.footer-cont{
+    display: block;width: 1200px; min-width: 1200px; position: relative;
+    margin-left: auto; margin-right: auto; margin-top: 300px;
+}
+.footer-words{
+    width: 714px; min-width: 714px; height: 248px; min-height: 246px;
+    margin-left: 236px; z-index: 18;
+}
+.copyright{
+    width: 600px; min-width: 600px; height: 80px min-height: 80px;
+    margin-left: 340px; margin-top: 248px; z-index: 20;
+}
+.copycopyright-p{
+    padding-top: 4pt; margin-bottom: -4pt; text-align: center;
+}
+.copyright-font,.copyright-font-2{
+    text-decoration: none; color: rgb(255,255,255); line-height: 28.69pt; font-size: 15.00pt;
+}
+.copyright-font-2{
+    color: rgb(211,54,130); margin-top: 10px;
+}

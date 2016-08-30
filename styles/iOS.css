@@ -1,0 +1,92 @@
+@import "basic.css";
+
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/zedpromedia_latte_macbook-o.jpg) no-repeat 50% 100%;
+    width: 100%; min-width: 1200px; height: 560px; min-height: 560px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+.icon,.title,.email,.email-1,.email-2{
+    display: inline-block; vertical-align: top; position: relative;
+}
+
+.p-1,.p-2{
+    margin-top: 5pt; margin-bottom: -5pt;
+}
+.p-1{
+    text-align: center
+}
+.p-2{
+    text-align: right;
+}
+.sp-1,.sp-2{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(255,255,255);
+}
+.sp-1{
+    font-size: 18.00pt; line-height: 34.42pt;
+}
+.sp-2{
+    font-size: 18.75pt; line-height: 35.86pt;
+}
+
+.content{
+    display: block; position: relative; width: 1200px; min-width: 1200px; margin-top: 50px; margin-left: auto; margin-right: auto;
+}
+.icon{
+    width: 180px; min-width: 180px; height: 180px; margin-left: 510px;
+}
+.icon img{
+    position: absolute; width: 180px; height: 180px; border-radius: 30px; box-shadow: 8px 6px 15px rgb(128,128,128);
+}
+.title{
+    width: 832px; min-width: 832px; min-height: 163px; margin-left: 187px;
+}
+.title p{
+    margin-top: 14pt; margin-bottom: -14pt; text-align: center;
+}
+.title span{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(0,0,0);
+    font-size: 51.75pt; line-height: 98.97pt;
+}
+
+#pubuliu ul{ list-style:none;margin:0;}
+#pubuliu{ width:1300px; height: 1700px; }
+#pubuliu-img{ position:relative;}
+.post{ float:left; margin-bottom: 5px;border:3px  solid rgb(155,185,234);width:280px;}
+.z1{ height:480px; background-image: url("../images/masonry-img/01.jpg"); background-size: 100% 100%;}
+.z2{ height:560px;background-image: url("../images/masonry-img/02.jpg");background-size: 100% 100%;}
+.z3{ height:380px;  background-image: url("../images/masonry-img/03.jpg");background-size: 100% 100%;}
+.z4{ height:530px;  background-image: url("../images/masonry-img/04.jpg");background-size: 100% 100%;}
+.z5{ height:525px;  background-image: url("../images/masonry-img/08.jpg");background-size: 100% 100%;}
+.z6{ height:420px;background-image: url("../images/masonry-img/06.jpg");background-size: 100% 100%;}
+.z7{ height:345px; background-image: url("../images/masonry-img/07.jpg");background-size: 100% 100%;}
+.z8{ height:660px; background-image: url("../images/masonry-img/05.jpg");background-size: 100% 100%;}
+.z9{ height:425px; background-image: url("../images/masonry-img/09.jpg");background-size: 100% 100%;}
+.z10{ height:545px; background-image: url("../images/masonry-img/10.jpg");background-size: 100% 100%;}
+.z11{ height:480px; background-image: url("../images/masonry-img/11.jpg");background-size: 100% 100%;}
+.z12{ height:500px; background-image: url("../images/masonry-img/12.jpg");background-size: 100% 100%;}
+.z13{ height:345px; background-image: url("../images/masonry-img/13.jpg");background-size: 100% 100%;}
+
+.email{
+    width: 172px; min-width: 172px; min-height: 174px; margin-left: 560px; margin-top: 30px;  z-index: 10;
+}
+.email-1{
+    width: 170px; min-width: 170px; min-height: 170px;   z-index: 11;
+}
+.submit-1{
+    width: 170px; height: 170px; border-radius: 85px; border: 0;
+    background: transparent url(../images/slice-1.jpg) no-repeat 50% 0; background-size: contain; background-clip: padding-box;
+}
+.email-2{
+    width: 172px; min-width: 172px; min-height: 172px; margin-top: -168px; z-index: 11;
+}
+.submit-2{
+    width: 172px; height: 172px; margin-top: -3pt; margin-bottom: 3pt;
+    background-color: rgb(255,255,255); color: rgb(211,54,130);
+    text-decoration: none; line-height: 24.59pt; letter-spacing: 1.71px;
+    border: 1px solid rgb(211,54,130); border-radius: 86px; font-size: 18.00pt;
+}
+.submit-2:hover , .submit-2:active {
+    background-color: transparent; border-color: transparent; color: transparent;
+}

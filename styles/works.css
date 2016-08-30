@@ -1,0 +1,94 @@
+@import "basic.css";
+
+
+.main{
+    background:rgba(0, 0, 0, 0.571) url(../images/zedpromedia_latte_macbook-o.jpg) no-repeat 50% 100%;
+    width: 100%; min-width: 1200px; height: 560px; min-height: 560px;
+    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    z-index: 1; border: 0;
+}
+
+.cont-header,.content-sec,.content-sec-left,.left-icon,.left-name,.content-sec-right,.right-icon,.right-name,.email,.email-1,.email-2{
+    display: inline-block; vertical-align: top; position: relative;
+}
+
+.p-1,.p-2{
+    margin-top: 5pt; margin-bottom: -5pt;
+}
+.p-1{
+    text-align: center
+}
+.p-2{
+    text-align: right;
+}
+.sp-1,.sp-2{
+    font-family: "Avenir Next", sans-serif;  font-weight: 200; text-decoration: none; color: rgb(255,255,255);
+}
+.sp-1{
+    font-size: 18.00pt; line-height: 34.42pt;
+}
+.sp-2{
+    font-size: 18.75pt; line-height: 35.86pt;
+}
+
+.content{
+    display: block; position: relative; width: 1200px; min-width: 1200px;
+    margin-left: auto; margin-right: auto; margin-top: 38px;
+}
+.cont-header{
+    width: 600px; min-width: 600px; min-height: 180px; margin-left: 300px; z-index: 2;
+}
+.content p{
+    margin-top: 14pt; margin-bottom: -14pt; text-align: center;
+}
+.content span{
+    font-family: "Avenir Next", sans-serif; font-weight: 200; text-decoration: none; color: rgb(0,0,0);
+}
+.cont-header span{
+    font-size: 51.00pt; line-height: 97.53pt;
+}
+.content-sec{
+    width: 933px; min-width: 933px; min-height: 418px; margin-left: 127px; margin-top: 60px;
+}
+.content-sec-left,.content-sec-right{
+    width: 441px; min-width: 441px; min-height: 417px;
+}
+.left-icon,.right-icon{
+    width: 180px; min-width: 180px; height: 180px;min-height: 180px; margin-left: 160px;
+}
+.content-sec img{
+    width: 180px; height: 180px; position: absolute;border-radius: 16px; box-shadow: 4px 8px 15px rgb(128,128,128);
+}
+.left-name,.right-name{
+    width: 441px; min-width: 441px; min-height: 180px; margin-top: 57px; margin-left: 24px;
+}
+.content-sec-left span{
+    font-size: 56.25pt; line-height: 107.57pt;
+}
+.content-sec-right span{
+    font-weight: 100; font-size: 56.25pt; line-height: 107.57pt;
+}
+
+.e-mail{
+    width: 172px; min-width: 172px; min-height: 174px; margin-left: 514px; margin-top: 40px; margin-bottom: -20px; z-index: 99;
+}
+.email-1{
+    width: 170px; min-width: 170px; min-height: 170px; z-index: 10;
+}
+.submit-2{
+    width: 170px; height: 170px; border-radius: 85px; border: 0;
+    background: transparent url(../images/slice-1.jpg) no-repeat; background-size: contain; background-clip: padding-box;
+}
+.email-2{
+    width: 172px; min-width: 172px; min-height: 172px; margin-top: -168px; z-index: 11;
+}
+.submit-3{
+    width: 172px; height: 172px; margin-top: -3pt; margin-bottom: 3pt;
+    background-color: rgb(255,255,255); color: rgb(211,54,130);
+    text-decoration: none; line-height: 24.59pt; letter-spacing: 1.71px;
+    border: 1px solid rgb(211,54,130); border-radius: 86px; font-size: 18.00pt;
+}
+.submit-3:hover , .submit-3:active {
+    background-color: transparent; border-color: transparent; color: transparent;
+}
+
