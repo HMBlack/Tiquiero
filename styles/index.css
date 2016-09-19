@@ -36,20 +36,24 @@ a {
 
 .main{
     background:rgba(0, 0, 0, 0.571) url(../images/desk-macbook-notebook-coffee-camera.jpg) no-repeat 50% 50%;
-    width: 100%; min-width: 1200px; height: 868px; min-height: 868px;
-    background-size: cover; background-clip: padding-box; background-attachment: fixed;
+    width: 100%; min-width: 1200px; height: 700px; min-height: 700px;
+    background-size: cover; background-clip: padding-box;
     z-index: 1; border: 0;
 }
 
+.cartoon{
+    width: 470px; height: 360px; position: absolute; left: 400px; top: 170px;
+}
+
 .header{
-    width: 100%; min-width: 1200px; min-height: 868px; margin-top: -868px; border: 0;
+    width: 100%; min-width: 1200px; min-height: 868px; margin-top: -868px;
     background-color: rgba(0, 0, 0, 0.571); z-index: 4;
 }
 .header-section{
-    margin-top: 34px; margin-left: auto; margin-right: auto;
+    margin-top: 200px; margin-left: auto; margin-right: auto;
 }
 .header-cont{
-    width: 1000px; min-width: 1000px; min-height: 70px; margin-left: 77px;
+    width: 1200px; min-width: 1000px; min-height: 70px; margin-left: 77px;
 }
 .name{
     width: 200px; min-width: 200px; min-height: 70px;
@@ -61,7 +65,7 @@ a {
     text-decoration: none; line-height: 51.22pt; color: rgb(255, 255, 255); font-size: 37.50pt;
 }
 .chinese{
-    margin-left: 672px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
+    margin-left: 700px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
 }
 .chinese-cont{
     width: 128px; min-height: 40px; min-width: 128px; z-index: 4;
