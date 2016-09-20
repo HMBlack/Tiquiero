@@ -21,7 +21,7 @@ a {
     background-attachment: fixed;
 }
 
-.main,.header,.header-section,.header-cont,.name,.chinese,.chinese-cont,.icon,.content-name,.vocation,.storyboard,
+.main,.header,.header-section,.header-cont,.name,.about-author,.chinese,.chinese-cont,.icon,.content-name,.vocation,.storyboard,
 .storyboard-top,.works,.works-words,.works-btn,.button-2,.story,.story-words,.story-btn,.e-mail,.email-1,.email-2,
 .storyboard-bottom,.gallery,.gallery-words,.gallery-btn,.timeline,.timeline-words,.timeline-btn,.github,.button-3,
 .footer-img,.footer,.footer-words,.copyright{
@@ -50,13 +50,51 @@ a {
     background-color: rgba(0, 0, 0, 0.571); z-index: 4;
 }
 .header-section{
-    margin-top: 200px; margin-left: auto; margin-right: auto;
+    margin-top: 180px; margin-left: auto; margin-right: auto;
 }
 .header-cont{
-    width: 1200px; min-width: 1000px; min-height: 70px; margin-left: 77px;
+    width: 1200px; min-width: 1000px; min-height: 100px; margin-left: 76px;
+    position: relative;
 }
+
+.about-author{
+    position: absolute; margin-left: 880px; margin-top: 0;
+}
+.social-share-element {
+    display: inline-block;
+    margin-right: 2px;
+    width: 40px;
+    height: 40px;
+    border-bottom: none;
+    border-radius: 20px;
+    background-color: #666;
+    background-image: url(http://zhangwenli.com/blog/img/social.png);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.social-share-element:hover {
+    border-radius: 5px;
+    background-color: rgb(211, 54, 130);
+}
+.social-share-element.social-twitter {
+    background-position: 0 0;
+}
+.social-share-element.social-github {
+    background-position: -10pc 40px;
+}
+.social-share-element.social-so {
+    background-position: -200px 40px;
+}
+.social-share-element.social-weibo {
+    background-position: -10pc 0;
+}
+.social-share-element.social-douban {
+    background-position: -40px 40px;
+}
+
 .name{
     width: 200px; min-width: 200px; min-height: 70px;
+    position: absolute; margin-top: 18px;  margin-left: 0;
 }
 .name h1{
     text-indent: 0; text-align: left;
@@ -65,18 +103,18 @@ a {
     text-decoration: none; line-height: 51.22pt; color: rgb(255, 255, 255); font-size: 37.50pt;
 }
 .chinese{
-    margin-left: 700px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
+    margin-left: 920px; margin-top: 50px; width: 128px; min-width: 128px; min-height: 40px;
 }
 .chinese-cont{
     width: 128px; min-height: 40px; min-width: 128px; z-index: 4;
 }
 .chinese a{
-    display: inline-block; border: 1px solid rgb(211, 54, 130); background-color: transparent;
+    display: inline-block; border: 2px solid rgb(211, 54, 130); background-color: transparent;
     text-align: center; text-decoration: none; color: rgb(211, 54, 130);
-    width: 126px; height: 30px; padding-top: 8px; line-height: 16.39pt; font-size: 12.00pt;
+    width: 126px; height: 30px; padding-top: 8px; line-height: 16.39pt; font-size: 13.00pt; font-weight: 400;
 }
 .chinese a:hover{
-    background-color: rgb(211,54,130);  border-color: transparent;  color: rgb(255,255,255);
+    background-color: rgb(211,54,130);  border-color: transparent;  color: rgb(255,255,255); cursor: pointer;
 }
 .chinese a:active{
     background-color: transparent;  border-color: transparent;  color: rgb(211,54,130);

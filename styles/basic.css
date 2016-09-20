@@ -21,7 +21,7 @@ a {
     background-attachment: fixed;
 }
 
-.main,.header,.header-cont,.name,.contact,.contact-cont,.icon,.content-name,.header-words,
+.main,.header,.header-cont,.name,.about-author,.contact,.contact-cont,.icon,.content-name,.header-words,
 .footer-img,.footer,.footer-words,.copyright{
     display: inline-block; vertical-align: top; position: relative;
 }
@@ -52,6 +52,42 @@ a {
     font-family: "Avenir Next", sans-serif; font-size: 30.00pt; font-weight: 200; text-decoration: none;
     color: rgb(255,255,255); line-height: 40.98pt;
 }
+
+.about-author{
+    position: absolute; margin-left: 880px; margin-top: 0;
+}
+.social-share-element {
+    display: inline-block;
+    margin-right: 2px;
+    width: 40px;
+    height: 40px;
+    border-bottom: none;
+    border-radius: 20px;
+    background-color: #666;
+    background-image: url(http://zhangwenli.com/blog/img/social.png);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.social-share-element:hover {
+    border-radius: 5px;
+    background-color: rgb(211, 54, 130);
+}
+.social-share-element.social-twitter {
+    background-position: 0 0;
+}
+.social-share-element.social-github {
+    background-position: -10pc 40px;
+}
+.social-share-element.social-so {
+    background-position: -200px 40px;
+}
+.social-share-element.social-weibo {
+    background-position: -10pc 0;
+}
+.social-share-element.social-douban {
+    background-position: -40px 40px;
+}
+
 .contact{
     margin-left: 700px; margin-top: 15px; width: 128px; min-width: 128px; min-height: 40px;
 }
@@ -59,7 +95,7 @@ a {
     width: 128px; min-height: 40px; min-width: 128px; z-index: 4;
 }
 .contact a{
-    display: inline-block; border: 1px solid rgb(211, 54, 130); background-color: transparent;
+    display: inline-block; border: 2px solid rgb(211, 54, 130); background-color: transparent;
     text-align: center; text-decoration: none; color: rgb(211, 54, 130);
     width: 126px; height: 30px; padding-top: 8px; line-height: 16.39pt; font-size: 12.00pt;
 }
