@@ -25,7 +25,7 @@
 }
 
 .content{
-    display: block; position: relative;  width: 1200px; min-width: 1200px; height: 800px;
+    display: block; position: relative;  width: 1200px; min-width: 1200px; height: 840px;
     margin: 50px auto -30px;
 }
 #cont-gallery{
@@ -63,4 +63,19 @@ ul,li{
 }
 #index .selected{
     background: rgb(221,99,158);
+}
+#more{
+    position: relative; width: 100%; min-width: 1200px;
+}
+.more1,.more2{
+    display: inline-block; width: 152px; height: 40px; line-height: 40px; border-radius: 5px;background-color: gainsboro;
+    text-align: center; text-decoration: none; color: #000000;font-size: 14.00pt; font-weight: 500; cursor: pointer;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.more1:hover,.more2:hover{
+    background-color: rgb(211,54,130); color: rgb(255,255,255);border-radius: 20px;
+}
+.more2{
+    position:absolute; right: 0;
 }
