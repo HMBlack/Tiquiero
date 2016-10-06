@@ -6,17 +6,8 @@
     <link href="../images/favicon.ico" rel="shortcut icon">
     <link href="../styles/index.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="../javascript/lazyLoad.js"></script>
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-38205696-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+    <script type="text/javascript" src="../javascript/move.js"></script>
+    <script type="text/javascript" src="../javascript/alert.js"></script>
 </head>
 <body id="body">
     <div class="main index">
@@ -35,11 +26,11 @@
                 </div>
 
                 <div class="about-author">
-                    <a class="social-share-element social-twitter" onclick="_gaq.push(['_trackEvent', 'Follow', 'Twitter', window.location.pathname]);" title="Follow me on Twitter" target="_blank" href="https://twitter.com/OviliaZhang"></a>
-                    <a class="social-share-element social-github" onclick="_gaq.push(['_trackEvent', 'Follow', 'GitHub', window.location.pathname]);" title="Follow me on GitHub" target="_blank" href="https://github.com/HMBlack"></a>
-                    <a class="social-share-element social-so" onclick="_gaq.push(['_trackEvent', 'Follow', 'StackOverflow', window.location.pathname]);" title="Follow me on StackOverflow" target="_blank" href="http://stackoverflow.com/users/6849550/tiquiero"></a>
-                    <a class="social-share-element social-weibo" onclick="_gaq.push(['_trackEvent', 'Follow', 'Weibo', window.location.pathname]);" title="Follow me on Sina Weibo" target="_blank" href="http://weibo.com/plainjane"></a>
-                    <a class="social-share-element social-douban" onclick="_gaq.push(['_trackEvent', 'Follow', 'Douban', window.location.pathname]);" title="Follow me on Douban" target="_blank" href="http://www.douban.com/people/ovilia1024/"></a>
+                    <a class="social-share-element social-twitter"  title="Follow me on Twitter" target="_blank" href="https://twitter.com/OviliaZhang"></a>
+                    <a class="social-share-element social-github"  title="Follow me on GitHub" target="_blank" href="https://github.com/HMBlack"></a>
+                    <a class="social-share-element social-so"  title="Follow me on StackOverflow" target="_blank" href="http://stackoverflow.com/users/6849550/tiquiero"></a>
+                    <a class="social-share-element social-weibo" title="Follow me on Sina Weibo" target="_blank" href="http://weibo.com/plainjane"></a>
+                    <a class="social-share-element social-douban"  title="Follow me on Douban" target="_blank" href="http://www.douban.com/people/ovilia1024/"></a>
                     <div style="clear: both"></div>
                 </div>
 
@@ -53,7 +44,86 @@
         </div>
     </div>
 
-    <div class="content">
+    <div id="messageBoardContainer">
+        <div id="messageBoard">
+            <div class="wrap">
+                <h2>
+                    <span>Hi,baby!</span>
+                    <a href="javascript:if(g_fnQuirkyPopupClose){g_fnQuirkyPopupClose()};" title="关闭"></a>
+                </h2>
+                <div class="content">
+                    <p class="indent"><span>欢迎来到我的个人网站 <a href="http://www.tiquiero.com">Tiquiero</a>，如果你想联系我，可以email我
+                        <strong><a href="mailto:tiquiero@163.com">tiquiero@163.com,</a></strong>或者加我微信 or QQ
+                        <strong class="red">Tiquiero1122</strong> or <strong class="red">372232950</strong>, 欢迎交流^_^。</span>
+                    </p>
+                    <p class="indent"><span>如果你也对前端感兴趣，更多技术交流可以关注我的 <a href="http://www.tiquiero.com">Github</a>、
+                        <a href="http://www.jianshu.com/users/377867f11814/latest_articles">简书</a> 。
+                        网站高清大图为私人专有，如果你喜欢也可以联系我。觉得作者这么辛苦？！来人，打赏作者~（直接粗暴的<a style="color: #666"><strong>微信</strong></a>转账即可🙈🙈）</span></p>
+                    <p class="date"><span>Tiquiero</span></p>
+                </div>
+            </div>
+            <div class="bg"></div>
+        </div>
+    </div>
+    <a href="javascript:;" id="quirkyPopupShowBtn" style="display:none;"></a>
+
+    <div class="mini">
+        <div id="mini_bottom">
+            <ul id="mini_nav">
+                <li><a href="###"></a></li>
+                <li class="mini_li_1"><a href="###"></a></li>
+                <li class="mini_li_2"><a href="###"></a></li>
+                <li class="mini_li_3"><a href="###"></a></li>
+                <li class="mini_li_4"><a href="###"></a></li>
+            </ul>
+            <h2 class="mini_tiquiero">Tiquiero www.tiquiero.com</h2>
+        </div>
+        <a class="mini_btn_show" id="mini_btn" href="###"></a>
+        <div id="mini_box">
+            <div class="mini_bg"></div>
+            <div class="mini_nav2_bg"></div>
+            <ul id="mini_list_nav">
+                <li><a  class="mini_show" href="http://www.tiquiero.com" target="_blank">天气</a></li>
+                <li class="mini_tab2"><a href="http://www.tiquiero.com" target="_blank">星座</a></li>
+                <li class="mini_tab3"><a href="http://www.tiquiero.com" target="_blank">排行</a></li>
+                <li class="mini_tab4"><a href="http://www.tiquiero.com" target="_blank">热点</a></li>
+                <li class="mini_tab5"><a href="http://www.tiquiero.com" target="_blank">直播</a></li>
+            </ul>
+            <a class="mini_close" id="mini_btn_close"></a>
+            <div class="mini_box_right">
+                <div>南昌</div>
+                <div>
+                    <div>
+                        <strong><em>今天</em> (周一)</strong>
+                        <img title="晴" src="../images/01.gif" class="pic">
+                    </div>
+                    <span>13~18C°</span>
+                    <span>晴</span>
+                    <span>微风小于3级</span>
+                </div>
+                <div >
+                    <div>
+                        <strong><em>明天</em> (周二)</strong>
+                        <img title="多云" src="../images/02.gif" class="pic">
+                    </div>
+                    <span>15~21C°</span>
+                    <span>多云</span>
+                    <span>北风3-4级</span>
+                </div>
+                <div>
+                    <div>
+                        <strong><em>后天</em> (周三)</strong>
+                        <img title="晴" src="../images/01.gif" class="pic">
+                    </div>
+                    <span>18~22C°</span>
+                    <span>晴</span>
+                    <span>北风3-4级 转 微风小于3级</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
 
         <div class="icon"></div>
         <div class="content-name">
@@ -61,7 +131,7 @@
         </div>
         <div class="vocation">
             <p><span>Software engineer</span></p>
-            <p><span>web前端开发</span></p>
+            <p><span>前端空城师</span></p>
         </div>
 
         <div class="storyboard">
@@ -86,7 +156,7 @@
                 <div class="story-btn"><a class="button-2" href="story.html">Read my story</a></div>
             </div>
 
-            <a href="mailto:k0133827@163.com">
+            <a href="mailto:tiquiero@163.com">
                 <div class="e-mail">
                     <div class="email-1">
                         <input class="submit-2" type="submit" name="button" value="">
