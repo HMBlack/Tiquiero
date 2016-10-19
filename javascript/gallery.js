@@ -6,7 +6,7 @@ var ph = {};
 
 ph.tools = {};
 
-ph.tools.getByClass = function(oParent,sClass){           //IE不支持getElementsByClassName
+ph.tools.getByClass = function(oParent,sClass){           //IE8以下不支持getElementsByClassName
     var aEle = oParent.getElementsByTagName('*');
     var arr = [];
 
@@ -20,7 +20,7 @@ ph.tools.getByClass = function(oParent,sClass){           //IE不支持getElemen
 }
 
 ph.tools.getStyle = function(obj,attr){
-    if(obj.currentStyle)
+    if(obj.currentStyle)                     //IE用currentStyle
     {
         return obj.currentStyle[attr];
     }else{
@@ -81,10 +81,6 @@ ph.app.topBanner = function(){
     var oPrev = ph.tools.getByClass(gallery,'prev')[0];
     var oNext = ph.tools.getByClass(gallery,'next')[0];
 
-    //var oPrev = gallery.getElementsByClassName("prev");
-    //var oNext =  gallery.getElementsByClassName("next");
-    //var oPrevBg = gallery.getElementsByClassName("prev_bg");
-    //var oNextBg =  gallery.getElementsByClassName("next_bg");
 
     var oIndex = document.getElementById('index');
     var iLi = oIndex.getElementsByTagName('li');

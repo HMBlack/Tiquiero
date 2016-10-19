@@ -19,7 +19,7 @@
             var aLi = oUl.getElementsByTagName("li");
             var iLen = aLi.length;
             var iPage = 1;
-            var b = true;  //防止多次滚动数据多次加载
+            var b = true;  //防止多次滚动，数据多次加载
 
             getList();
 
@@ -27,7 +27,7 @@
                 var _index = getShort();
                 var oLi = aLi[_index];
 
-                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;   //标准模式 ||  怪异模式
                 if(getTop(oLi) + oLi.offsetHeight < document.documentElement.clientHeight + scrollTop)
                 {
                     if(b)

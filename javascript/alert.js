@@ -725,7 +725,6 @@ function alert(){
     var oDivContent=oDiv.getElementsByTagName('div')[0];
     var oText=oDiv.getElementsByTagName('div')[2];
     var aSpan=oText.getElementsByTagName('span');
-    //var oDrag=oDivContent.getElementsByTagName('h2')[0];
     var oCloseBtn=oDiv.getElementsByTagName('a')[0];
     var oBtnShow=document.getElementById('quirkyPopupShowBtn');
 
